@@ -3,32 +3,34 @@
 
   <head>
     <link rel="stylesheet" href="main.css">
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
-    <title> JB </title>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine|Open+Sans+Condensed:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <title> Jezeus Cuevas </title>
+    <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css'/>
+        <script type='text/javascript' src='script.js'></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
   </head>
 
-  <header>
-    <h1>Jezeus Cuevas</h1>
-  </header>
+  <header> 
+    <h1><a href="index.html">Jezeus Cuevas</a></h1>
+  </header> 
+ 
   <nav>
         <ul>
+          <li id="link" onmouseover="return changeMe()" onmouseout="return changeMeBack()"><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="albums.html">Albums</a></li>
-          <li><a href="tour.html">Tour</a></li>
+          <li><a href="listen.html">Listen</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
   </nav>
   
   <body>
     <div class="content-section">
-      <div class="text">
-        <p><b>Founded:</b> 2006</p>
-        <p><b>Genre:</b> Hip Hop</p>
-        <p><b>Name:</b> Jesus Alberto Cuevas</p>
-        <p><b>Hometown:</b> Pasadena, CA</p>
-        <p><b>Record Label:</b> Indie</p>
-        <p><b>Influences:</b>Tupac, Biggie,Dr.Dre, J. Cole, RZA, Talib Kwali, Immortal Technique, DMX , Diabolic, Wale, Jedi Mind Tricks, KRS One</p>
-      </div>
+      <iframe id="ytplayer" type="text/html" width="560" height="315" src="http://www.youtube.com/embed/EVtaTT251Xk?autoplay=1&list=UUpN46H7l0dBr8QVAPaPrS0A" frameborder="0" allowfullscreen>
+      </iframe>
+      <br/><br/><br/>
+      <div class="indextext">
+        <p>JB is a local pasadena hiphop rapper with the intentions of changing his surroundings with his music make sure to follow him and his entourage and support..</p></div>
       <br>
       <br>
     </div>

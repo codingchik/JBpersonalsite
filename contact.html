@@ -2,31 +2,49 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Tangerine|Open+Sans+Condensed:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css'/>
+        <script type='text/javascript' src='script.js'></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
   </head>
   <header>
-    <h1>Jezeus Cuevas</h1>
+    <h1><a href="index.html">Jezeus Cuevas</a></h1>
   </header>
   <nav>
         <ul>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="albums.html">Albums</a></li>
-          <li><a href="tour.html">Tour</a></li>
+          <li><a href="listen.html">Listen</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
   </nav>
   <body>
     <div class="content-section">
-      <div class="text">
-      <h1>Contact</h1>
-      <form>
-        <label for="band-name">Band Name</label>
-        <input type="text" id="band-name">
-        <label for="your-story">Your Story</label>
-        <textarea id="your-story"></textarea>
-        <label for="on-tour">On Tour</label>
-        <input type="checkbox" id="on-tour">
-        <input type="submit" value="Tell us about your band">
+      <div class="contact">
+      <h2>Contact</h2>
+      <p>I am collaborating with local artists and looking for venues and locations for open mic events to continue to share my music.</p>
+      <p> Please contact me if you would like to connect.</p><br/>
+      <p><b>Artist:</b> cuevasjesus4@gmail.com</p><br/><br/>
+      <h2>Upcoming Events</h2>
+      <p>Coming Soon...</p><br/><br/>
+
+    <form>
+      <p> If you would like to set a date to book an event please fill out the form below </p><br/> 
+      <p> From: <input type='text' id='departing'>  To: <input type='text' id='returning'> </p><br/>
+      <input type='text' name='hi' value='' placeholder='name' required><br/><br/>
+      <input type='text' name='hi' value='' placeholder='email'><br/>
+      <p> Comment </p>
+      <textarea></textarea><br/>
+      <p>Sign up to Newsletter?</p>
+      <p><input type='radio'> Yes <input type='radio'> No </p>
+      <p> More info: </p>
+      <p><input type='checkbox' checked> Music 
+      <input type='checkbox'> Artist 
+      <input type='checkbox'> Tour </p><br/><br/>
+      <input type='submit'> <br/> <br/>
       </form>
+       </div>
       </div>
     </div>
   </body>
